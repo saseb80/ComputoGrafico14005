@@ -76,7 +76,7 @@ Vector2 Vector2::operator- (Vector2 param)
 
 float Vector2:: operator* (Vector2 param) 
 {
-	int temp;
+	float temp;
 	temp = (x * param.x) + (y * param.y);
 	return temp;
 }
